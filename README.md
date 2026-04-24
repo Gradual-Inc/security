@@ -15,7 +15,7 @@ By submitting a vulnerability report, you agree to the terms of this policy.
 
 Submit a private security advisory via GitHub:
 
-👉 **[github.com/gradual/security/security/advisories/new](https://github.com/gradual/security/security/advisories/new)**
+👉 **[github.com/Gradual-Inc/security/security/advisories/new](https://github.com/Gradual-Inc/security/security/advisories/new)**
 
 Your submission is visible only to Gradual's security team. GitHub automatically adds you as a collaborator on the advisory, allowing private discussion with our team throughout triage and remediation.
 
@@ -267,12 +267,12 @@ Because some of our customers use their own domains with Gradual, we want to be 
 
 | Purpose | Contact |
 |---|---|
-| Vulnerability report (preferred) | [GitHub private advisory](https://github.com/gradual/security/security/advisories/new) |
+| Vulnerability report (preferred) | [GitHub private advisory](https://github.com/Gradual-Inc/security/security/advisories/new) |
 | Vulnerability report (email) | security@gradual.com |
 | General security questions | security@gradual.com |
 | PGP key | [pgp-key.txt](./pgp-key.txt) |
 | Hall of Fame | [HALL_OF_FAME.md](./HALL_OF_FAME.md) |
-| Languages | English, 中文 (Chinese) |
+| Languages | English |
 
 ---
 
