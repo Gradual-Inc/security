@@ -1,0 +1,34 @@
+Gradual Security Team PGP Public Key
+====================================
+
+Use this key to encrypt sensitive vulnerability reports sent to
+security@gradual.com.
+
+User ID:      Gradual Security <security@gradual.com>
+Key type:     ed25519 (primary, sign/certify) + cv25519 (subkey, encrypt)
+Created:      2026-04-24
+Expires:      2028-04-23
+Fingerprint:  FD16 C9EC 0EE0 63F3 7D14  CC7B 8B37 4AB2 E030 BDF1
+
+How to use:
+  curl -O https://raw.githubusercontent.com/gradual/security/main/pgp-key.txt
+  gpg --import pgp-key.txt
+  gpg --fingerprint security@gradual.com   # verify matches the fingerprint above
+  gpg --armor --encrypt --recipient security@gradual.com report.txt
+  # then email report.txt.asc to security@gradual.com
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaes8sxYJKwYBBAHaRw8BAQdA8e43bHD1hVEf2K3SWTtH5BKJoVtwFmKM+ROf
++w3ccXK0J0dyYWR1YWwgU2VjdXJpdHkgPHNlY3VyaXR5QGdyYWR1YWwuY29tPoi1
+BBMWCgBdFiEE/RbJ7A7gY/N9FMx7izdKsuAwvfEFAmnrPLMbFIAAAAAABAAObWFu
+dTIsMi41KzEuMTIsMCwzAhsDBQkDwmcABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4H
+AheAAAoJEIs3SrLgML3xm2oBANS+Ll4Z1Wh+5gLtcSklIMxsbG/xxPGbVSpJLovF
+ZLmMAQCQjcwIzWrQ364J/XN4vpJZcaGPYByDEABEnkqbbN+7B7g4BGnrPLMSCisG
+AQQBl1UBBQEBB0Awmjpth7CqGbOLvNcWRjN3XatjAbkk5Fd5z0o5O9NsRgMBCAeI
+lAQYFgoAPBYhBP0WyewO4GPzfRTMe4s3SrLgML3xBQJp6zyzGxSAAAAAAAQADm1h
+bnUyLDIuNSsxLjEyLDAsMwIbDAAKCRCLN0qy4DC98b8/AP9fyWbRY4hKX9EDatse
+nIa8Q0q8hc8ojqc2nyfFgvMXXwEA010rwD19dpJyquqZ4gZ3B8cdfe6fmthmeuk6
+RT4qzAY=
+=qMes
+-----END PGP PUBLIC KEY BLOCK-----
