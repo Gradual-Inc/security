@@ -11,9 +11,9 @@ declined public credit are not listed.
 
 ## 2026
 
-| Researcher | Reported | Severity | Summary |
-|---|---|---|---|
-| **DeepCodeX** | April 2026 | High | Authentication token leak via a failed WebSocket connection, combined with overly broad token scope on the real-time messaging integration, enabling enumeration of platform-wide channels and analytics. Reported, triaged, and remediated. |
+| Researcher | Reported | Severity | CWE | Summary |
+|---|---|---|---|---|
+| **DeepCodeX** | April 2026 | High | [CWE-200](https://cwe.mitre.org/data/definitions/200.html) | Authentication token leak via a failed WebSocket connection, combined with overly broad token scope on the real-time messaging integration, enabling enumeration of platform-wide channels and analytics. Reported, triaged, and remediated. |
 
 ---
 
