@@ -11,7 +11,9 @@ declined public credit are not listed.
 
 ## 2026
 
-_No entries yet. Be the first — see [README.md](./README.md) for how to report._
+| Researcher | Reported | Severity | Summary |
+|---|---|---|---|
+| **DeepCodeX** | April 2026 | High | Authentication token leak via a failed WebSocket connection, combined with overly broad token scope on the real-time messaging integration, enabling enumeration of platform-wide channels and analytics. Reported, triaged, and remediated. |
 
 ---
 
