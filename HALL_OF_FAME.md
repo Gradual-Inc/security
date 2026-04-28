@@ -13,6 +13,7 @@ declined public credit are not listed.
 
 | Researcher | Reported | Severity | CWE | Summary |
 |---|---|---|---|---|
+| **Merouane Righi** | March 2026 | Low | [CWE-451](https://cwe.mitre.org/data/definitions/451.html) | Content spoofing in outbound platform email enabling phishing-style impersonation. Reported, triaged, and remediated. |
 | **DeepCodeX** | April 2026 | High | [CWE-200](https://cwe.mitre.org/data/definitions/200.html) | Authentication token leak via a failed WebSocket connection, combined with overly broad token scope on the real-time messaging integration, enabling enumeration of platform-wide channels and analytics. Reported, triaged, and remediated. |
 
 ---
